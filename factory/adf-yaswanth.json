@@ -1,0 +1,9 @@
+{
+	"name": "adf-yaswanth",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd3fdec2-9ec9-4fd5-a415-4bc918cfdd1c",
+		"tenantId": "a6ea1e87-5fca-4946-832e-8c453c774798"
+	}
+}
