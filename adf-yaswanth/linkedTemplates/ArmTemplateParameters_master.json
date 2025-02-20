@@ -8,11 +8,17 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kvyaswanth.vault.azure.net/"
+		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "sql-db33.database.windows.net"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_database": {
 			"value": "db1"
+		},
+		"event triger_properties_typeProperties_scope": {
+			"value": "/subscriptions/d3b10e7b-e551-4f8c-bbcf-c00f3994ec2e/resourceGroups/rg-yaswanth/providers/Microsoft.Storage/storageAccounts/styaswanth"
 		},
 		"containerUri": {
 			"value": ""
