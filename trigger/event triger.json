@@ -1,0 +1,17 @@
+{
+	"name": "event triger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/container/blobs/data",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/d3b10e7b-e551-4f8c-bbcf-c00f3994ec2e/resourceGroups/rg-yaswanth/providers/Microsoft.Storage/storageAccounts/styaswanth",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
