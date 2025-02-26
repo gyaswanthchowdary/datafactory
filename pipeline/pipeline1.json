@@ -32,7 +32,14 @@
 						"sqlWriterUseTableLock": false,
 						"disableMetricsCollection": false
 					},
-					"enableStaging": false,
+					"enableStaging": true,
+					"stagingSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureBlobStorage1",
+							"type": "LinkedServiceReference"
+						},
+						"path": "container/data"
+					},
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [
