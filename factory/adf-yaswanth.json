@@ -1,6 +1,12 @@
 {
 	"name": "adf-yaswanth",
 	"properties": {
+		"globalParameters": {
+			"p1": {
+				"type": "string",
+				"value": "10"
+			}
+		},
 		"globalConfigurations": {
 			"PipelineBillingEnabled": "true"
 		}
